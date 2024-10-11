@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Ridge
+from xgboost import XGBRegressor
 
 st.markdown("""
     <h1 style='text-align: center; color: #1E90FF;'>Predicción de Marketing Inteligente con Cerem</h1>
